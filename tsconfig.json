@@ -1,0 +1,19 @@
+{
+    "extends": "./configs/base",
+    "compilerOptions": {
+        "target": "esnext",
+        "watch": true,
+        "lib": ["dom", "es2017"]
+    },
+    // Not including files will make it compile all ts files
+    // Just doing it here for practice
+    "files": [
+        "src/calc.ts",
+        "src/index.ts",
+        "src/shop.ts"
+    ],
+    "include": ["src/**/*"],
+    "exclude": ["src/ignoreme.ts"],
+    // Will error if there is unreachable code, like after a return statement
+    "allowUnreachableCode": false
+}

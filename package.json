@@ -1,0 +1,19 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "This repo is for practicing typescript syntax and tooling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dframe1997/typescript-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dframe1997/typescript-practice/issues"
+  },
+  "homepage": "https://github.com/dframe1997/typescript-practice#readme"
+}
